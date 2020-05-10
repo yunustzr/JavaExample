@@ -16,7 +16,7 @@ public class Example_2 {
      System.out.println("Dizi elemanlarini giriniz");
      for (int k = 0; k < array_text.length; k++) {
 		for (int k1 = 0; k1 < array_text[0].length; k1++) {
-			System.out.print(k+".Row "+k1+" .Column=");
+			System.out.print("["+k+"]"+"["+k1+"]=");
 			array_text[k][k1]=input_arrays.nextInt();
 		}
 	  }
